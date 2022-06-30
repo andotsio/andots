@@ -49,3 +49,10 @@ b. add prometheus datasource
 ![1656584339434](https://user-images.githubusercontent.com/100293899/176654112-1792ef7d-dc02-4bcb-816d-b652f7c5490e.png)
 ![1656584505054](https://user-images.githubusercontent.com/100293899/176654480-ebd0c935-7338-40cd-b082-48503bf58fd4.png)
 
+c.Import via panel 1860 (for more dashboards visit https://grafana.com/grafana/dashboards/)
+![1656584856745](https://user-images.githubusercontent.com/100293899/176655946-5c6211df-eb48-4b76-9cbb-23ab899e37b8.png)
+![1656584933199](https://user-images.githubusercontent.com/100293899/176655976-b60fd312-0c4d-4e36-9bf9-38a444d94e73.png)
+![1656585086134](https://user-images.githubusercontent.com/100293899/176656293-4d1c1527-3570-4f3c-b03e-d2c9997d0ff1.png)
+
+d.After the configuration is successful, the effect is as follows
+![1656585280959](https://user-images.githubusercontent.com/100293899/176656874-3f75ca94-5a26-420e-93f7-c55d17022286.png)
