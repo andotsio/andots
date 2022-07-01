@@ -17,6 +17,10 @@ Check if the installation was successful Run the following command:
  curl http://localhost:9100/metrics
 ```
 
+install  node_exporter verbose log
+![1656657384528](https://user-images.githubusercontent.com/100293899/176838630-44b4766d-3ea0-4272-aae0-cec914fd5e8c.png)
+
+
 ## 2.install prometheus and grafana
 - Ubuntu 20.04 (tested on this OS)
 - CPU: 4 cores
