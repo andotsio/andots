@@ -8,7 +8,7 @@
 
 Run the following command: 
 ```bash
-wget https://github.com/andotsio/node_monitor/blob/main/node_exporter-install.sh
+wget https://github.com/andotsio/node_monitor/raw/main/node_exporter-install.sh
 sh node_exporter-install.sh
 ```
 
@@ -25,12 +25,12 @@ Check if the installation was successful Run the following command:
 
 ### install prometheus Run the following command: 
 ```bash
-wget https://github.com/andotsio/node_monitor/blob/main/prometheus-install.sh
+wget https://github.com/andotsio/node_monitor/raw/main/prometheus-install.sh
 sh prometheus-install.sh
 ```
 ### install grafana Run the following command: 
 ```bash
-wget https://github.com/andotsio/node_monitor/blob/main/grafana-install.sh
+wget https://github.com/andotsio/node_monitor/raw/main/grafana-install.sh
 sh grafana-install.sh
 ```
 
