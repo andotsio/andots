@@ -10,7 +10,6 @@ if [ -f  "$EXISTS_FILE" ]; then
 else
         echo CONTINUING ...
 fi
-
 #install node_exporter
 sudo wget https://github.com/prometheus/node_exporter/releases/download/v$NODE_VERSION/node_exporter-$NODE_VERSION.linux-amd64.tar.gz
 sudo tar -zxvf node_exporter-$NODE_VERSION.linux-amd64.tar.gz -C /usr/local
