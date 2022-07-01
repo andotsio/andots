@@ -17,7 +17,8 @@ Check if the installation was successful Run the following command:
  curl http://localhost:9100/metrics
 ```
 
-install  node_exporter verbose log
+install  node_exporter verbose log:
+
 ![1656657384528](https://user-images.githubusercontent.com/100293899/176838630-44b4766d-3ea0-4272-aae0-cec914fd5e8c.png)
 
 
@@ -32,11 +33,22 @@ install  node_exporter verbose log
 wget https://github.com/andotsio/node_monitor/raw/main/prometheus-install.sh
 sh prometheus-install.sh
 ```
+
+install  prometheus verbose log:
+
+![1656659758571](https://user-images.githubusercontent.com/100293899/176844172-2aac2e7c-2bf8-43d7-a18a-f8fdac4eac2f.png)
+
+
 ### install grafana Run the following command: 
 ```bash
 wget https://github.com/andotsio/node_monitor/raw/main/grafana-install.sh
 sh grafana-install.sh
 ```
+
+install  grafana verbose log:
+
+![1656659884804](https://user-images.githubusercontent.com/100293899/176844439-482bcfc5-d1c8-4e15-b190-f0442d1387e6.png)
+
 
 ## 3.config granfana
 a. Access in browser： http://ip:3000/login
