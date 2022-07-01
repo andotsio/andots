@@ -1,14 +1,14 @@
 #node monitoring （prometheus+grafana）for ubuntu
 ## Steps:
- 1. [install node_exporter](#1-install node_exporter)
- 2. [install prometheus and grafana](#2-install prometheus and grafana)
- 3. [config granfana](#4-config granfana)
+ 1. [install node_exporter]
+ 2. [install prometheus and grafana]
+ 3. [config granfana]
 ## 1. install node_exporter
 *It needs to be installed on the host where HyperNode or Klaytn is located！*
 
 Run the following command: 
 ```bash
-wget https://github.com/andotsio/andots/blob/main/node_exporter-install.sh
+wget https://github.com/andotsio/node_monitor/blob/main/node_exporter-install.sh
 sh node_exporter-install.sh
 ```
 
@@ -23,18 +23,15 @@ Check if the installation was successful Run the following command:
 - RAM: 8GB
 - 500G SSD drive
 
-Run the following command: 
+### install prometheus Run the following command: 
 ```bash
-wget https://github.com/andotsio/andots/blob/main/prometheus-install.sh
+wget https://github.com/andotsio/node_monitor/blob/main/prometheus-install.sh
 sh prometheus-install.sh
-wget https://github.com/andotsio/andots/blob/main/grafana-install.sh
-sh grafana-install.sh
 ```
-
-Check if the installation was successful Run the following command: 
+### install grafana Run the following command: 
 ```bash
- lsof -i:9090
- lost -i:3000
+wget https://github.com/andotsio/node_monitor/blob/main/grafana-install.sh
+sh grafana-install.sh
 ```
 
 ## 3.config granfana
